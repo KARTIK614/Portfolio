@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik's Portfolio</title>
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"> <!--poppins font-->
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kartik's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Kartik</span>
+                <div>and I am a passionate
+                    <div></div>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Learning Expierence</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" id="hacker" src="hacker.png" alt="">
+                    <div class="vertical-title">Basics of Cyber Security[2022-2023]</div>
+                    <div class="vertical-desc">I have done one of my friend's internship and made Projects for him, got
+                        87% in it.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="GCP.png" alt="">
+                    <div class="vertical-title">Google Cloud Platform[2023-2024(jan)]</div>
+                    <div class="vertical-desc">I have done 80+ labs of Google Cloud Platform and complited Cloud
+                        Bootcamp organised by GeeksforGeeks with Google for Developers within top 1000</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="HTML.png" alt="" height="30px" width="20px">
+                    <div class="vertical-title">Web Development[2024(feb)-In continuty</div>
+                    <div class="vertical-desc">I have complited Web Development by taking a High Level Overview and
+                        building some Projects on it.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Kartik Pareek. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Cyber Security learner', 'Cloud Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
